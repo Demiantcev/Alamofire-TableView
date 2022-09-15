@@ -7,20 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CC32985754E80ACCEAF26C3 /* Pods_AlamofireTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1DEECB430F317EADFA3C6D /* Pods_AlamofireTest.framework */; };
+		EB25FCB128CF325900BE1DC6 /* EpisodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25FCB028CF325900BE1DC6 /* EpisodeTableViewCell.swift */; };
+		EB25FCB328CF326900BE1DC6 /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25FCB228CF326900BE1DC6 /* EpisodeViewController.swift */; };
+		EB436134289D1F7E00F6105A /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB436133289D1F7E00F6105A /* CharactersViewController.swift */; };
+		EB436136289D2EB000F6105A /* CharactersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB436135289D2EB000F6105A /* CharactersTableViewCell.swift */; };
+		EB436138289D39F900F6105A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB436137289D39F900F6105A /* Network.swift */; };
+		EB563D7F28C8C02F00B8163D /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB563D7E28C8C02F00B8163D /* LocationViewController.swift */; };
+		EB563D8128C8C73A00B8163D /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB563D8028C8C73A00B8163D /* LocationTableViewCell.swift */; };
 		EBA5E1F6289BD330002FCC99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA5E1F5289BD330002FCC99 /* AppDelegate.swift */; };
 		EBA5E1F8289BD330002FCC99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA5E1F7289BD330002FCC99 /* SceneDelegate.swift */; };
 		EBA5E1FA289BD330002FCC99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA5E1F9289BD330002FCC99 /* ViewController.swift */; };
-		EBA5E1FD289BD330002FCC99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA5E1FB289BD330002FCC99 /* Main.storyboard */; };
 		EBA5E1FF289BD331002FCC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA5E1FE289BD331002FCC99 /* Assets.xcassets */; };
 		EBA5E202289BD331002FCC99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA5E200289BD331002FCC99 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		828E5FD16B0B67D716E0914C /* Pods-AlamofireTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireTest.release.xcconfig"; path = "Target Support Files/Pods-AlamofireTest/Pods-AlamofireTest.release.xcconfig"; sourceTree = "<group>"; };
+		BD1DEECB430F317EADFA3C6D /* Pods_AlamofireTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6B941A945A70659BAF3F33 /* Pods-AlamofireTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireTest.debug.xcconfig"; path = "Target Support Files/Pods-AlamofireTest/Pods-AlamofireTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EB25FCB028CF325900BE1DC6 /* EpisodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewCell.swift; sourceTree = "<group>"; };
+		EB25FCB228CF326900BE1DC6 /* EpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
+		EB436133289D1F7E00F6105A /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		EB436135289D2EB000F6105A /* CharactersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersTableViewCell.swift; sourceTree = "<group>"; };
+		EB436137289D39F900F6105A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		EB563D7E28C8C02F00B8163D /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		EB563D8028C8C73A00B8163D /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
 		EBA5E1F2289BD330002FCC99 /* AlamofireTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA5E1F5289BD330002FCC99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBA5E1F7289BD330002FCC99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EBA5E1F9289BD330002FCC99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EBA5E1FC289BD330002FCC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBA5E1FE289BD331002FCC99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBA5E201289BD331002FCC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBA5E203289BD331002FCC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,17 +47,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC32985754E80ACCEAF26C3 /* Pods_AlamofireTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		199198C527E57BCDA330BBA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B941A945A70659BAF3F33 /* Pods-AlamofireTest.debug.xcconfig */,
+				828E5FD16B0B67D716E0914C /* Pods-AlamofireTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7267B84D63454F3EA1DD9220 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD1DEECB430F317EADFA3C6D /* Pods_AlamofireTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB25FCAF28CF322500BE1DC6 /* Episode */ = {
+			isa = PBXGroup;
+			children = (
+				EB25FCB228CF326900BE1DC6 /* EpisodeViewController.swift */,
+				EB25FCB028CF325900BE1DC6 /* EpisodeTableViewCell.swift */,
+			);
+			name = Episode;
+			sourceTree = "<group>";
+		};
+		EB563D7C28C8BF9A00B8163D /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				EB436133289D1F7E00F6105A /* CharactersViewController.swift */,
+				EB436135289D2EB000F6105A /* CharactersTableViewCell.swift */,
+			);
+			name = Characters;
+			sourceTree = "<group>";
+		};
+		EB563D7D28C8BFAD00B8163D /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				EB563D7E28C8C02F00B8163D /* LocationViewController.swift */,
+				EB563D8028C8C73A00B8163D /* LocationTableViewCell.swift */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
 		EBA5E1E9289BD330002FCC99 = {
 			isa = PBXGroup;
 			children = (
 				EBA5E1F4289BD330002FCC99 /* AlamofireTest */,
 				EBA5E1F3289BD330002FCC99 /* Products */,
+				199198C527E57BCDA330BBA3 /* Pods */,
+				7267B84D63454F3EA1DD9220 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +121,11 @@
 			children = (
 				EBA5E1F5289BD330002FCC99 /* AppDelegate.swift */,
 				EBA5E1F7289BD330002FCC99 /* SceneDelegate.swift */,
+				EB436137289D39F900F6105A /* Network.swift */,
 				EBA5E1F9289BD330002FCC99 /* ViewController.swift */,
-				EBA5E1FB289BD330002FCC99 /* Main.storyboard */,
+				EB563D7C28C8BF9A00B8163D /* Characters */,
+				EB25FCAF28CF322500BE1DC6 /* Episode */,
+				EB563D7D28C8BFAD00B8163D /* Location */,
 				EBA5E1FE289BD331002FCC99 /* Assets.xcassets */,
 				EBA5E200289BD331002FCC99 /* LaunchScreen.storyboard */,
 				EBA5E203289BD331002FCC99 /* Info.plist */,
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBA5E206289BD331002FCC99 /* Build configuration list for PBXNativeTarget "AlamofireTest" */;
 			buildPhases = (
+				19878E957BCD2B3079B41DA8 /* [CP] Check Pods Manifest.lock */,
 				EBA5E1EE289BD330002FCC99 /* Sources */,
 				EBA5E1EF289BD330002FCC99 /* Frameworks */,
 				EBA5E1F0289BD330002FCC99 /* Resources */,
+				767316C5FF318C271B273A3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +195,74 @@
 			files = (
 				EBA5E202289BD331002FCC99 /* LaunchScreen.storyboard in Resources */,
 				EBA5E1FF289BD331002FCC99 /* Assets.xcassets in Resources */,
-				EBA5E1FD289BD330002FCC99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19878E957BCD2B3079B41DA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlamofireTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		767316C5FF318C271B273A3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlamofireTest/Pods-AlamofireTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlamofireTest/Pods-AlamofireTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlamofireTest/Pods-AlamofireTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EBA5E1EE289BD330002FCC99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB25FCB128CF325900BE1DC6 /* EpisodeTableViewCell.swift in Sources */,
+				EB563D7F28C8C02F00B8163D /* LocationViewController.swift in Sources */,
 				EBA5E1FA289BD330002FCC99 /* ViewController.swift in Sources */,
+				EB563D8128C8C73A00B8163D /* LocationTableViewCell.swift in Sources */,
+				EB25FCB328CF326900BE1DC6 /* EpisodeViewController.swift in Sources */,
 				EBA5E1F6289BD330002FCC99 /* AppDelegate.swift in Sources */,
 				EBA5E1F8289BD330002FCC99 /* SceneDelegate.swift in Sources */,
+				EB436136289D2EB000F6105A /* CharactersTableViewCell.swift in Sources */,
+				EB436134289D1F7E00F6105A /* CharactersViewController.swift in Sources */,
+				EB436138289D39F900F6105A /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EBA5E1FB289BD330002FCC99 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EBA5E1FC289BD330002FCC99 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EBA5E200289BD331002FCC99 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +390,7 @@
 		};
 		EBA5E207289BD331002FCC99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6B941A945A70659BAF3F33 /* Pods-AlamofireTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +401,6 @@
 				INFOPLIST_FILE = AlamofireTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +418,7 @@
 		};
 		EBA5E208289BD331002FCC99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828E5FD16B0B67D716E0914C /* Pods-AlamofireTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +429,6 @@
 				INFOPLIST_FILE = AlamofireTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
