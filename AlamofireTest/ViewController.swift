@@ -82,11 +82,18 @@ class ViewController: UIViewController {
         label.text = "The Rick and Morty"
         label.font = UIFont(name: "Copperplate-Bold", size: 30)
         label.textColor = .orange
-        label.backgroundColor = .black
+//        label.backgroundColor = .black
         label.adjustsFontSizeToFitWidth = true
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .center
         return label
+    }()
+    
+    let titleView: UIView = {
+        var view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .black
+        return view
     }()
     
     
@@ -99,17 +106,22 @@ class ViewController: UIViewController {
     
     private func setupConstraint() {
         
-        view.addSubview(titleLabel)
+        view.addSubview(titleView)
         view.addSubview(stackButton)
+        titleView.addSubview(titleLabel)
         stackButton.addArrangedSubview(characterButton)
         stackButton.addArrangedSubview(locationsButton)
         stackButton.addArrangedSubview(episodesButton)
         
         NSLayoutConstraint.activate([
-            titleLabel.topAnchor.constraint(equalTo: view.topAnchor),
-            titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            titleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            titleLabel.heightAnchor.constraint(equalToConstant: 100),
+            
+            titleView.topAnchor.constraint(equalTo: view.topAnchor),
+            titleView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            titleView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            titleView.heightAnchor.constraint(equalToConstant: 100),
+            
+            titleLabel.centerXAnchor.constraint(equalTo: titleView.centerXAnchor),
+            titleLabel.centerYAnchor.constraint(equalTo: titleView.centerYAnchor, constant: 20),
             
             stackButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             stackButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
