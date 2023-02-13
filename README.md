@@ -14,15 +14,12 @@ width="400" height="350">
 <img align="left">
 <img src="https://github.com/Demiantcev/Alamofire-TableView/blob/main/Presention/Simulator%20Screen%20Shot%20-%20iPhone%2014%20Pro%20-%202023-02-13%20at%2022.11.09.png"
 width="350" height="300">
-
 <img align="right">
 <img src="https://github.com/Demiantcev/Alamofire-TableView/blob/main/Presention/Simulator%20Screen%20Shot%20-%20iPhone%2014%20Pro%20-%202023-02-13%20at%2022.11.23.png"
 width="350" height="300">
-  
 <img align="left">
 <img src="https://github.com/Demiantcev/Alamofire-TableView/blob/main/Presention/Simulator%20Screen%20Shot%20-%20iPhone%2014%20Pro%20-%202023-02-13%20at%2022.11.35.png"
 width="350" height="300">
-
 <img align="right">
 <img src="https://github.com/Demiantcev/Alamofire-TableView/blob/main/Presention/Simulator%20Screen%20Shot%20-%20iPhone%2014%20Pro%20-%202023-02-13%20at%2022.11.46.png"
 width="350" height="300">
