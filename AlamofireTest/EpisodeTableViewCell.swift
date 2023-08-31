@@ -60,11 +60,9 @@ class EpisodeTableViewCell: UITableViewCell {
     
     func setupConstraint() {
         
-        self.addSubview(nameLabel)
-        self.addSubview(episodeLabel)
-        self.addSubview(episodeLabelTwo)
-        self.addSubview(airDateLabel)
-        self.addSubview(airDateLabelTwo)
+        [nameLabel, episodeLabel, episodeLabelTwo, airDateLabel, airDateLabelTwo].forEach {
+            self.addSubview($0)
+        }
         
         NSLayoutConstraint.activate([
         

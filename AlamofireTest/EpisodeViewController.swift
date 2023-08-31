@@ -83,12 +83,12 @@ class EpisodeViewController: UIViewController {
                 let itemObject = value as? [String: Any]
 
                 guard let arrayOfItems = itemObject?["results"] as? [[String: Any]] else { return }
+                
                     for itm in arrayOfItems {
 
                         let item = Episode(airDate: itm["air_date"] as! String,
                                            name: itm["name"] as! String,
                                            episode: itm["episode"] as! String)
-                        
                         self.episode.append(item)
                     }
                     DispatchQueue.main.async {

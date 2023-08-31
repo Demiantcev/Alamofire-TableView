@@ -8,6 +8,7 @@
 import UIKit
 import Alamofire
 import AlamofireImage
+import Combine
 
 class CharactersViewController: UIViewController {
     
@@ -100,6 +101,7 @@ class CharactersViewController: UIViewController {
             backButton.leadingAnchor.constraint(equalTo: tableView.leadingAnchor, constant: 10),
         ])
     }
+    
     func parsJSON() {
         AF.request("https://rickandmortyapi.com/api/character").responseJSON { responseJSON in
             switch responseJSON.result {

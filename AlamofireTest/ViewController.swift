@@ -82,7 +82,6 @@ class ViewController: UIViewController {
         label.text = "The Rick and Morty"
         label.font = UIFont(name: "Copperplate-Bold", size: 30)
         label.textColor = .orange
-//        label.backgroundColor = .black
         label.adjustsFontSizeToFitWidth = true
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .center

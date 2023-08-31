@@ -60,11 +60,9 @@ class LocationTableViewCell: UITableViewCell {
     
     func setupConstraint() {
         
-        self.addSubview(nameLabel)
-        self.addSubview(typeLabel)
-        self.addSubview(typeLabelTwo)
-        self.addSubview(dimensionLabel)
-        self.addSubview(dimensionLabelTwo)
+        [nameLabel, typeLabel, typeLabelTwo, dimensionLabel, dimensionLabelTwo].forEach {
+            self.addSubview($0)
+        }
         
         NSLayoutConstraint.activate([
         
