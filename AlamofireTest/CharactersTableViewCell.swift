@@ -82,14 +82,9 @@ class CharactersTableViewCell: UITableViewCell {
     
     private func setupConstraints() {
         
-        self.contentView.addSubview(fotoImage)
-        self.contentView.addSubview(nameLabel)
-        self.contentView.addSubview(genderLabel)
-        self.contentView.addSubview(genderLabelTwo)
-        self.contentView.addSubview(speciesLabel)
-        self.contentView.addSubview(speciesLabelTwo)
-        self.contentView.addSubview(statusLabel)
-        self.contentView.addSubview(statusLabelTwo)
+        [fotoImage, nameLabel, genderLabel, genderLabelTwo, speciesLabel, speciesLabelTwo, statusLabel, statusLabelTwo].forEach {
+            self.contentView.addSubview($0)
+        }
         
         NSLayoutConstraint.activate([
             
@@ -118,7 +113,6 @@ class CharactersTableViewCell: UITableViewCell {
             
             statusLabelTwo.leadingAnchor.constraint(equalTo: genderLabelTwo.leadingAnchor),
             statusLabelTwo.bottomAnchor.constraint(equalTo: self.bottomAnchor)
-            
         ])
     }
 }
